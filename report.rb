@@ -1,15 +1,8 @@
 require "json"
-require "pp"
-require "open-uri"
-require "rest-client"
+require "csv"
 
-#p JSON.parse(File.read("services.json"))
+issues = JSON.parse(File.read("potholes.json"))["issues"]
 
-# pothole: 116
+puts issues[0].keys.to_csv
 
-
-puts (RestClient.get('https://seeclickfix.com/api/v2/issues', 
-  {:params => {:page => 1, 
-               :per_page => 100, 
-               :address => URI.escape("New Haven, CT"), 
-               :request_types => "116"}}))
+issues.each { |e| puts e.values.to_csv }
