@@ -1,0 +1,14 @@
+{"id"=>2558996,
+ "status"=>"Acknowledged",
+ "summary"=>"Grass or vegetation too long on private property",
+ "description"=>"",
+ "lat"=>42.2698827416195,
+ "lng"=>-83.7573078285828,
+ "address"=>"906 Hutchins Ave Ann Arbor, MI 48103, USA",
+ "created_at"=>"2016-06-04T10:48:46-04:00",
+ "acknowledged_at"=>"2016-06-04T10:48:49-04:00",
+ "closed_at"=>nil,
+ "reopened_at"=>nil,
+ "updated_at"=>"2016-06-04T10:48:49-04:00",
+ "shortened_url"=>nil
+}
